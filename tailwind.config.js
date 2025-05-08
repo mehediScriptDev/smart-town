@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         alfa: 'Abril Fatface',
         italy: "Noto Sans Display",
+        plus: "Plus Jakarta Sans",
       },
       colors:{
         mainbg: 'rgb(2, 31, 82);',

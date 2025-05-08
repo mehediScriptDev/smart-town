@@ -9,16 +9,31 @@ const images = [
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-10">
-      <div className="box col-span-4">
-        <Carousel useKeyboardArrows={true}>
-          {images.map((URL, index) => (
-            <div className="slide">
-              <img alt="sample_file" src={URL} key={index} />
-            </div>
-          ))}
-        </Carousel>
-      </div>
+    <section>
+      <section className="grid grid-cols-10 min-h-screen">
+        <div className="col-span-6 flex justify-center flex-col max-w-2xl">
+          <h1 className="font-plus font-bold text-5xl text-mainbg py-3">
+            Welcome to Tangail
+          </h1>
+          <p className="font-semibold">
+            Tangail is a vibrant district town in central Bangladesh, known for
+            its rich cultural heritage, traditional handloom sarees, and warm
+            hospitality. Situated by the Louhajang River, the town blends urban
+            development with natural beauty. From historic sites to scenic
+            spots, Tangail offers a glimpse into both the past and the future of
+            Bangladesh.
+          </p>
+        </div>
+        <div className="box col-span-4">
+          <Carousel useKeyboardArrows={true}>
+            {images.map((URL, index) => (
+              <div className="slide">
+                <img alt="sample_file" src={URL} key={index} />
+              </div>
+            ))}
+          </Carousel>
+        </div>
+      </section>
     </section>
   );
 };

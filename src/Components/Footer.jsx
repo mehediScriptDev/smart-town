@@ -1,8 +1,8 @@
 import logo from '../../public/logo1.png'
 const Footer = () => {
   return (
-    <section className='mt-10'>
-      <footer className="footer sm:footer-horizontal bg-mainbg text-base-content p-10 *:text-white">
+    <section className='mt-10 bg-mainbg'>
+      <footer className="footer w-10/12 mx-auto sm:footer-horizontal  text-base-content p-10 *:text-white">
         <nav>
           <h6 className="footer-title">Explore</h6>
           <a className="link link-hover">Branding</a>
@@ -24,7 +24,7 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </nav>
       </footer>
-      <footer className="footer bg-mainbg text-base-content border-base-300 border-t px-10 py-4">
+      <footer className="footer bg-mainbg w-11/12 mx-auto text-base-content border-base-300 border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
           <img className='w-14 border-btncl border-2' src={logo} alt="" />
           <p className='text-white'>
