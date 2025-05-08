@@ -1,56 +1,54 @@
+import { IoMenu } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 const Nav = () => {
   const links = (
     <>
       <li>
-        <a>Home</a>
+        <NavLink>Home</NavLink>
       </li>
       <li>
-        <a>Places</a>
+        <NavLink>Places</NavLink>
       </li>
       <li>
-        <a>Shops</a>
+        <NavLink>Shops</NavLink>
+      </li>
+      <li>
+        <NavLink>About Us</NavLink>
       </li>
     </>
   );
   return (
-    <section className="w-11/12 mx-auto">
-      <div className="flex justify-between bg-base-100">
-        <div >
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <section className="bg-mainbg py-2">
+      <div className="w-10/12 mx-auto *:text-white">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center gap-4">
+          <div className="flex items-center">
+            <div className="dropdown ">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost lg:hidden"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <IoMenu className="text-xl"/>
+              </div>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content bg-mainbg rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                {links}
+              </ul>
             </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
-              {links}
-            </ul>
+            <a className="join text-2xl md:text-3xl"><span className="font-alfa font-semibold join-item">Smart</span><span className="join-item font-italy text-btncl">Town</span></a>
           </div>
-          <a className="btn btn-ghost text-xl font-bold">SmartTown</a>
-        </div>
-        <div className="flex items-center gap-3">
-        <div className=" hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-bold">
-            {links}
-          </ul>
-        </div>
-        <div className="">
-          <a className="btn rounded-md">Assist</a>
-        </div>
+          <div className=" hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">{links}</ul>
+          </div>
+          </div>
+          <div className="flex gap-2 items-center">
+          <a className="btn btn-ghost hover:bg-mainbg hover:text-white hover:border-transparent hidden md:flex">Button</a>
+            <a className="btn btn-sm md:btn-md btn-outline rounded-full hover:text-mainbg hover:bg-btncl hover:border-transparent">Featured Places</a>
+            
+          </div>
         </div>
       </div>
     </section>
