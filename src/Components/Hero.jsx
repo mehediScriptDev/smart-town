@@ -10,30 +10,33 @@ const images = [
 const Hero = () => {
   return (
     <section>
-      <section className="grid grid-cols-10 min-h-screen">
-        <div className="col-span-6 flex justify-center flex-col max-w-2xl">
-          <h1 className="font-plus font-bold text-5xl text-mainbg py-3">
+      <div className=" bg-mainbg">
+        <div className=" flex flex-col justify-center items-center w-10/12  mx-auto md:pt-5">
+        <div className="bg-littlebg text-xs text-white px-3 py-1 mt-6 rounded-full">
+          <p>Dont ask for chomchom </p>
+        </div>
+          <h1 className="font-plus text-center font-bold text-3xl md:text-5xl text-white py-3">
             Welcome to Tangail
           </h1>
-          <p className="font-semibold">
+          <p className="font-semibold text-center font-plus text-sm md:w-8/12 pb-3 text-textcl">
             Tangail is a vibrant district town in central Bangladesh, known for
             its rich cultural heritage, traditional handloom sarees, and warm
-            hospitality. Situated by the Louhajang River, the town blends urban
-            development with natural beauty. From historic sites to scenic
-            spots, Tangail offers a glimpse into both the past and the future of
-            Bangladesh.
+            hospitality. 
           </p>
+          <div className="pb-5">
+            <button className="btn bg-btncl text-mainbg rounded-full hover:bg-white duration-100">Explore Tangail</button>
+          </div>
         </div>
-        <div className="box col-span-4">
+        <div className="box col-span-6">
           <Carousel useKeyboardArrows={true}>
             {images.map((URL, index) => (
-              <div className="slide">
-                <img alt="sample_file" src={URL} key={index} />
+              <div className="slide border-mainbg border-2">
+                <img className="" alt="sample_file" src={URL} key={index} />
               </div>
             ))}
           </Carousel>
         </div>
-      </section>
+      </div>
     </section>
   );
 };

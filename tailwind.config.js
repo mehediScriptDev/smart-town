@@ -15,6 +15,8 @@ export default {
       colors:{
         mainbg: 'rgb(2, 31, 82);',
         btncl: 'rgb(252, 192, 91)',
+        textcl: 'rgba(255, 255, 255, 0.7)',
+        littlebg: 'rgba(255, 255, 255, 0.16);',
       },
     },
   },
