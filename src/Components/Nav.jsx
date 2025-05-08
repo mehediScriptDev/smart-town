@@ -14,6 +14,9 @@ const Nav = () => {
         <NavLink>Shops</NavLink>
       </li>
       <li>
+        <NavLink>Emergency</NavLink>
+      </li>
+      <li>
         <NavLink>About Us</NavLink>
       </li>
     </>
