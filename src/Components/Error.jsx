@@ -2,7 +2,7 @@ import errorimg from '../images/404.gif'
 
 const Error = () => {
     return (
-        <section>
+        <section className='flex justify-center items-center'>
             <img src={errorimg} alt="" />
         </section>
     );

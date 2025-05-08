@@ -1,13 +1,12 @@
 
 import './App.css'
+import Nav from './Components/Nav'
 
 function App() {
 
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Nav></Nav>
     </>
   )
 }
