@@ -55,8 +55,8 @@ const Nav = () => {
             </div>
           </div>
           <div className="flex gap-2 items-center">
-            <a className="btn btn-ghost hover:bg-mainbg hover:text-white hover:border-transparent hidden md:flex">
-              Emergency
+            <a href="https://en.wikipedia.org/wiki/Tangail_District" target="_blank" className="btn btn-ghost hover:bg-mainbg hover:text-white hover:border-transparent hidden md:flex">
+              History
             </a>
             <a className="btn btn-sm md:btn-md btn-outline rounded-full hover:text-mainbg hover:bg-btncl hover:border-transparent">
               Featured Places

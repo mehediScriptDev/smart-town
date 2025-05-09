@@ -14,3 +14,7 @@ li>a:hover{
     outline: none;
     box-shadow: none;
   }
+
+body{
+    background-color: white;
+}

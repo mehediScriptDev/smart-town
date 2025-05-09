@@ -17,6 +17,7 @@ export default {
         btncl: 'rgb(252, 192, 91)',
         textcl: 'rgba(255, 255, 255, 0.7)',
         littlebg: 'rgba(255, 255, 255, 0.16);',
+        searchbar: 'rgb(246, 248, 254)',
       },
     },
   },

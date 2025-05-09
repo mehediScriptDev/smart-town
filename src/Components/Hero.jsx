@@ -1,6 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
+import Category from "./Category";
 
 const images = [
   "https://admin.watergardenresort.com/media/65841b43817fc.jpg",
@@ -38,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
         <div id="explore" className="col-span-6 bg-mainbg">
-          <div className="">
+          <div className="pb-[1px]">
           <Carousel useKeyboardArrows={true}>
             {images.map((URL, index) => (
               <div className="slide border-mainbg border-2">
@@ -49,6 +50,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <Category></Category>
     </section>
   );
 };

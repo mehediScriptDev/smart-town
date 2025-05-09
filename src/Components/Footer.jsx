@@ -4,24 +4,18 @@ const Footer = () => {
     <section className='mt-10 bg-mainbg'>
       <footer className="footer w-10/12 mx-auto sm:footer-horizontal  text-base-content p-10 *:text-white">
         <nav>
-          <h6 className="footer-title">Explore</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <h6 className="footer-title">About us</h6>
+          <p className='text-xs md:text-sm'>SmartTown is your all-in-one digital guide to Tangail—a city rich in culture, tradition, and services. We offer accurate, up-to-date information on local landmarks, banks, hospitals, doctors, emergency contacts, shops, and more. Whether you're a resident or a visitor, SmartTown helps you explore Tangail smarter, faster, and more confidently.</p>
         </nav>
         <nav>
-          <h6 className="footer-title">Support</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <h6 className="footer-title">Our mission</h6>
+          <p className='text-xs md:text-sm'>Our mission is to digitally empower the people of Tangail by making essential city information easily accessible. From healthcare to banking, shops to emergency contacts, we aim to create a smart, connected, and informed community—where residents and visitors can navigate the city with confidence and ease.</p>
         </nav>
         <nav>
-          <h6 className="footer-title">Emergency</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="footer-title">Contact us</h6>
+          <a className="link link-hover">📍 Tangail City Office </a>
+          <a className="link link-hover">📞 017xx-xxxxxx</a>
+          <a className="link link-hover">✉️ info@smarttown.com</a>
         </nav>
       </footer>
       <footer className="footer bg-mainbg w-11/12 mx-auto text-base-content border-base-300 border-t px-10 py-4">
