@@ -36,7 +36,7 @@ const Hero = () => {
             hospitality. 
           </p>
           <div className="pb-5">
-            <a href="#explore" className="btn bg-btncl text-mainbg rounded-full hover:bg-white duration-100">Explore Tangail</a>
+            <a href="#explore" className="btn border-transparent bg-btncl text-mainbg rounded-full hover:bg-white duration-100">Explore Tangail</a>
           </div>
         </div>
         <div id="explore" className="col-span-6 bg-mainbg">

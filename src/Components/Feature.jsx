@@ -1,3 +1,4 @@
+import { useState } from "react";
 import atiya from "../images/atiya-jame-mosjid.jpg";
 import mohera from "../images/mohera-jomidar-bari.jpg";
 import pakutia from "../images/pakutia.jpg";
@@ -5,6 +6,10 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAccessTime } from "react-icons/md";
 
 const Feature = () => {
+  const [open, setOpen] = useState(false);
+  const shower = () => {
+    setOpen(!open)
+  }
   return (
     <section className="mt-16 bg-white">
       <div className="w-11/12 mx-auto">
@@ -95,6 +100,11 @@ const Feature = () => {
                   <button className="btn btn-ghost text-btncl hover:text-mainbg">View Details</button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div>
+            <div className="flex mt-5 justify-center items-center">
+              <button onClick={shower} className="btn btn-outline rounded-full hover:bg-mainbg hover:text-btncl">{open? 'Show more':'Show less'}</button>
             </div>
           </div>
         </div>
