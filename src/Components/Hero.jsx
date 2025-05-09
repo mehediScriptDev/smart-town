@@ -3,6 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from "react-router-dom";
 import Category from "./Category";
 import Feature from "./Feature";
+import Emergency from "./Emergency";
 
 const images = [
   "https://admin.watergardenresort.com/media/65841b43817fc.jpg",
@@ -54,6 +55,7 @@ const Hero = () => {
 
       <Category></Category>
       <Feature></Feature>
+      <Emergency></Emergency>
     </section>
   );
 };
