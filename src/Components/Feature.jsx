@@ -6,8 +6,9 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAccessTime } from "react-icons/md";
 
 const Feature = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const shower = () => {
+    
     setOpen(!open)
   }
   return (
