@@ -17,7 +17,7 @@ const Feature = () => {
         <h1 className="font-plus text-center font-bold  text-3xl md:text-4xl text-mainbg py-2">
           Featured Places
         </h1>
-        <p className="text-center font-semibold text-xl text-gray-700 text-littlebg">
+        <p className="text-center font-semibold text-xl  text-gray-600">
           Explore special spots across our town
         </p>
 
