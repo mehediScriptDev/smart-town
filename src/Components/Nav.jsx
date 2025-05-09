@@ -22,9 +22,9 @@ const Nav = () => {
     </>
   );
   return (
-    <section className="bg-mainbg py-2 ">
+    <section className="bg-mainbg py-2 fixed top-0 w-full z-50 ">
       <div className="w-10/12 mx-auto *:text-white">
-        <div className="flex justify-between items-center border-b-4 border-mainbg">
+        <div className="flex justify-between items-center border-b-4  border-mainbg">
           <div className="flex items-center gap-4">
             <div className="flex items-center ">
               <div className="dropdown ">

@@ -1,7 +1,7 @@
 import logo from '../../public/logo1.png'
 const Footer = () => {
   return (
-    <section className='mt-10 bg-mainbg'>
+    <section className=' bg-mainbg'>
       <footer className="footer w-10/12 mx-auto sm:footer-horizontal  text-base-content p-10 *:text-white">
         <nav>
           <h6 className="footer-title">About us</h6>

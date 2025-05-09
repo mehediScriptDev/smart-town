@@ -56,15 +56,15 @@ const Category = () => {
               <GiShop className="md:text-4xl text-2xl text-btncl" />
               
             </p>
-            <h3 className="md:text-xl text-xs font-semibold">Super Shops</h3>
+            <h3 className="md:text-xl text-[.7rem] font-semibold">Super Shops</h3>
           </Link>
 
-          <Link className="bg-mainbg hover:bg-[#003b7a] transition-colors duration-300 text-white rounded-2xl shadow-lg border-t-4 border-btncl p-4 md:p-6 flex flex-col items-center justify-center space-y-4 cursor-pointer hover:scale-105">
+          <Link className="bg-mainbg hover:bg-[#003b7a] transition-colors duration-300 text-white rounded-2xl shadow-lg border-t-4 border-btncl px-4 py-0 md:p-6 flex flex-col items-center justify-center space-y-2 md:space-y-4 cursor-pointer hover:scale-105">
             <p>
               <IoRestaurantSharp className="md:text-4xl text-2xl text-btncl" />
               
             </p>
-            <h3 className="md:text-xl text-xs font-semibold">Restaurants</h3>
+            <h3 className="md:text-xl text-[.7rem] font-semibold">Restaurants</h3>
           </Link>
 
           <Link className="bg-mainbg hover:bg-[#003b7a] transition-colors duration-300 text-white rounded-2xl shadow-lg border-t-4 border-btncl p-4 md:p-6 flex flex-col items-center justify-center space-y-4 cursor-pointer hover:scale-105">
@@ -72,21 +72,21 @@ const Category = () => {
               <MdOutlineLocalGroceryStore className="md:text-4xl text-2xl text-btncl" />
               
             </p>
-            <h3 className="md:text-xl text-xs font-semibold">Local Markets</h3>
+            <h3 className="md:text-xl text-[.7rem] font-semibold">Local Markets</h3>
           </Link>
           <Link className="bg-mainbg hover:bg-[#003b7a] transition-colors duration-300 text-white rounded-2xl shadow-lg border-t-4 border-btncl p-4 md:p-6 flex flex-col items-center justify-center space-y-4 cursor-pointer hover:scale-105">
             <p>
               <FaMapLocationDot className="md:text-4xl text-2xl text-btncl" />
               
             </p>
-            <h3 className="md:text-xl text-xs font-semibold">Tourist Attractions</h3>
+            <h3 className="md:text-xl text-[.7rem] font-semibold">Tourist Attractions</h3>
           </Link>
           <Link className="bg-mainbg hover:bg-[#003b7a] transition-colors duration-300 text-white rounded-2xl shadow-lg border-t-4 border-btncl p-4 md:p-6 flex flex-col items-center justify-center space-y-4 cursor-pointer hover:scale-105">
             <p>
               <BsBusFront className="md:text-4xl text-2xl text-btncl" />
               
             </p>
-            <h3 className="md:text-xl text-xs font-semibold">Transportation</h3>
+            <h3 className="md:text-xl text-[.7rem] font-semibold">Transport</h3>
           </Link>
         </div>
       </div>

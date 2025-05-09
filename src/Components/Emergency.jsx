@@ -35,8 +35,8 @@ const Emergency = () => {
     },
   ];
   return (
-    <section className="bg-red-50 py-12 px-6 text-center">
-      <h2 className="text-3xl font-bold mb-2">Emergency Contacts</h2>
+    <section className="bg-red-50 py-12 px-6 text-center mt-5">
+      <h2 className="text-3xl font-plus font-bold mb-2">Emergency Contacts</h2>
       <p className="text-gray-600 mb-10">Important numbers to keep handy</p>
       <div className="grid md:grid-cols-3 gap-6">
         {emergencyContacts.map((contact) => (
@@ -65,9 +65,7 @@ const Emergency = () => {
           </div>
         ))}
       </div>
-      <button className="mt-8 px-6 py-3 border border-red-500 text-red-600 font-semibold rounded hover:bg-red-100 transition">
-        See All Emergency Contacts
-      </button>
+      
     </section>
   );
 };

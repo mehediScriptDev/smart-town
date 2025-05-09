@@ -25,7 +25,7 @@ const Hero = () => {
     <section>
       <div className="bg-mainbg">
         <div className=" flex flex-col justify-center items-center w-10/12  mx-auto md:pt-5">
-        <div className="bg-littlebg text-xs text-white px-3 py-1 mt-6 rounded-full">
+        <div className="bg-littlebg text-xs text-white px-3 py-1 mt-24 rounded-full">
           <p>Dont ask for chomchom </p>
         </div>
           <h1 className="font-plus text-center font-bold text-3xl md:text-5xl text-white py-3">
