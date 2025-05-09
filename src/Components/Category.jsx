@@ -11,7 +11,7 @@ import { MdOutlineLocalGroceryStore } from "react-icons/md";
 
 const Category = () => {
   return (
-    <section className="min-h-screen ">
+    <section className="bg-white">
       <div className="mt-8 w-11/12 mx-auto">
         <h1 className="font-plus text-center font-bold md:pb-8 text-3xl md:text-4xl text-mainbg py-3">
           Discover Everything About Our Town
