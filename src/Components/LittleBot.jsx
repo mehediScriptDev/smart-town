@@ -1,4 +1,5 @@
 import { useState } from "react";
+import 'animate.css';
 
 const LittleBot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,7 +60,7 @@ const LittleBot = () => {
       ) : (
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-btncl text-white h-12 w-12 rounded-full shadow-lg"
+          className="bg-btncl animate__animated animate__bounce text-white h-12 w-12 rounded-lg shadow-lg"
         >
           💬
         </button>
