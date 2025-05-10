@@ -20,7 +20,6 @@ const Feature = () => {
         <p className="text-center font-semibold text-xl  text-gray-600">
           Explore special spots across our town
         </p>
-
         <div>
           <div className="grid md:grid-cols-3  gap-5 gap-y-8 grid-cols-1 mt-10">
             <div className="card bg-mainbg transform hover:scale-105 relative duration-300 transition hover:bg-[#003b7a] shadow-sm">
@@ -28,7 +27,7 @@ const Feature = () => {
                 <img
                   src={atiya}
                   alt="place"
-                  className="md:w-full xl:h-[15rem] object-cover"
+                  className=""
                 />
                 <div className="absolute top-2 text-btncl bg-mainbg px-3 py-1 rounded-md font-semibold text-xs md:text-sm left-3">
                   <p>Mosque</p>
