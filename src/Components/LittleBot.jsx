@@ -20,6 +20,7 @@ const LittleBot = () => {
     if (lower.includes("bank")) reply = "We have several banks and ATMs around town.";
     else if (lower.includes("hospital")) reply = "The hospital is open 24/7 for emergencies.";
     else if (lower.includes("shop")) reply = "You can find many shops in the central market.";
+    else if (lower.includes("atm")) reply = "Atm not available";
 
     setMessages([...newMessages, { role: "bot", content: reply }]);
     setQuery("");
