@@ -5,7 +5,7 @@ const LittleBot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState([
-    { role: "bot", content: "Hi! Ask me anything about our town." }
+    { role: "bot", content: "Hey! Ask me anything about Tangail town!" }
   ]);
 
   const handleSubmit = (e) => {
